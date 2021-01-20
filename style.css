@@ -10,6 +10,7 @@ main,header,.banner,.content,.sidebar,.gallery,footer{
     padding:20px;
 }
 main{
+   min-width:300px;
     background-image: linear-gradient(to bottom right, #D74177, #FFE98A);
 }
 
@@ -108,11 +109,11 @@ header h4{
     flex-wrap:wrap;
     justify-content: center;
 }
-.galleryBox img{
-    width: 300px;
-    padding: 10px;
-    
-}
+  .galleryBox img{
+        width:300px;
+        height: 280px;
+        padding: 10px;
+    }
 
 @media only screen and (min-width: 640px){
     .spacer-menu{
@@ -150,10 +151,15 @@ header h4{
     .sidebar{
         flex: 0 1 300px;
     }
-    .galleryBox img{
-        width: 400px;
-        
+    .galleryBox h4{
+        font-size: .85rem;
     }
+    .galleryBox img{
+        width:350px;
+        height: 230px;
+        padding: 10px;
+    }
+    
 }
 
 @media only screen and (min-width: 768px){
@@ -175,6 +181,10 @@ header h4{
     .banner{
         min-height: 500px;
         margin-bottom: 2rem;
+    }
+
+    .galleryBox h4{
+        font-size: 1rem;
     }
     .galleryBox img{
         width:400px;
