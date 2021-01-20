@@ -150,6 +150,10 @@ header h4{
     .sidebar{
         flex: 0 1 300px;
     }
+    .galleryBox img{
+        width: 400px;
+        
+    }
 }
 
 @media only screen and (min-width: 768px){
