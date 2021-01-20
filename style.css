@@ -89,6 +89,11 @@ header h4{
     line-height: 2rem;
 }
 
+#doar{
+    padding: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
 
 .sidebar ul li{
     list-style: url("checkmark.png");
